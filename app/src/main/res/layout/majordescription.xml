@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    android:background="#ffd000">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:padding="16sp"
+        android:text="major arcana"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:text="- major arcana trả lời cho câu hỏi 'tại sao'.\n- chúng miêu tả bài học mà bạn cần học trong tình hình này và các nguồn năng lượng nguyên mẫu cần phải được biểu hiện/quan tâm.\n- chúng cho bạn biết 'tại sao' mà 'ai' ở trong 'cái gì'.\n- chúng cũng có thể được xem như những nguyên tắc/luật pháp/nhu cầu tinh thần tâm lý. "/>
+</LinearLayout>

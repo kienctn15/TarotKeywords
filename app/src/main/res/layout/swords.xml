@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.167">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/swords2"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:text="2 of Swords"
+            android:background="@color/colorAir"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/swords3"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:text="3 of Swords"
+            android:background="@color/colorAir"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/swords4"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:text="4 of Swords"
+            android:background="@color/colorAir"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/swords5"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:text="5 of Swords"
+            android:background="@color/colorAir"
+            android:layout_weight="0.25"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.167">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/swords6"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:text="6 of Swords"
+            android:background="@color/colorAir"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/swords7"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:text="7 of Swords"
+            android:background="@color/colorAir"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/swords8"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:text="8 of Swords"
+            android:background="@color/colorAir"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/swords9"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:text="9 of Swords"
+            android:background="@color/colorAir"
+            android:layout_weight="0.25"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.167">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/swords1"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:text="Ace of Swords"
+            android:background="@color/colorAir"
+            android:layout_weight="0.75"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/sdes"
+            android:textSize="30sp"
+            android:textColor="@color/colorAir"
+            android:text="Swords"
+            android:background="@color/colorPrimary"
+            android:layout_weight="0.5"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:id="@+id/swords10"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:text="10 of Swords"
+            android:background="@color/colorAir"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.167">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pos"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary"
+            android:text="Page of Swords"
+            android:background="@color/colorAir"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/knos"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary"
+            android:text="Knight of Swords"
+            android:background="@color/colorFire"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/qos"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary"
+            android:text="Queen of Swords"
+            android:background="@color/colorWater"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/kos"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary"
+            android:text="King of Swords"
+            android:background="@color/colorAir"/>
+    </LinearLayout>
+</LinearLayout>

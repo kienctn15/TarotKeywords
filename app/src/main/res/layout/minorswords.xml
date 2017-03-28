@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    android:background="@color/colorAir">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:padding="16sp"
+        android:text="suit of swords"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:text="- xung đột/chỉ trích.\n- chiến lược/đấu tranh.\n- quyết định/lí do.\n- suy tư/phân tích.\n- lập kế hoạch/đứng đắn.\n- thấu hiểu.\n- giải quyết vấn đề.\n- luật lệ và nề nếp.\n- thông minh và xảo quyệt.\n- biến đổi tinh thần.\n- thảo luận"/>
+</LinearLayout>

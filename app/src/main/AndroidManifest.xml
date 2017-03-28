@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.optimus.tarotkeywords">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/magic"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity1" android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:theme="@style/Theme.AppCompat.NoActionBar">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+        <activity android:name=".MajorArcana"
+            android:label="@string/major_arcana"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            >
+        </activity>
+        <activity android:name=".MinorArcanaSwords"
+            android:label="@string/swords"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+        </activity>
+        <activity android:name=".MinorArcanaWands"
+            android:label="@string/wands"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+        </activity>
+        <activity android:name=".MinorArcanaCups"
+            android:label="@string/cups"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+        </activity>
+        <activity android:name=".MinorArcanaPentacles"
+            android:label="@string/pentacles"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+        </activity>
+        <activity android:name=".MajorSub"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".TabHostActivity"
+            android:label="Major"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+        </activity>
+
+    </application>
+
+</manifest>

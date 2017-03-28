@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    android:background="@color/colorEarth">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:padding="16sp"
+        android:text="suit of pentacles"
+        android:textColor="@color/colorAir"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAir"
+        android:textSize="17sp"
+        android:text="- kỹ năng/khéo léo.\n- giá trị/xứng đáng.\n- truyền thống.\n- cảm giác/sự biểu lộ.\n- kích động.\n- hiện thực/vật chất/tiền.\n- kết quả.\n- bảo vệ/khỏe mạnh/vững chắc/vật lý.\n- hoàn thành/phần thường của sự hoàn thành.\n- trung tâm."/>
+</LinearLayout>

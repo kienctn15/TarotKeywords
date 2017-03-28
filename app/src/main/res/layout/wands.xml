@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAir">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.25">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/wand2"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="2 of Wands"
+            android:background="@color/colorFire"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/wand3"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="3 of Wands"
+            android:background="@color/colorFire"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/wand4"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="4 of Wands"
+            android:background="@color/colorFire"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/wand5"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="5 of Wands"
+            android:background="@color/colorFire"
+            android:layout_weight="0.25"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.25">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/wand6"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="6 of Wands"
+            android:background="@color/colorFire"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/wand7"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="7 of Wands"
+            android:background="@color/colorFire"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/wand8"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="8 of Wands"
+            android:background="@color/colorFire"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/wand9"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="9 of Wands"
+            android:background="@color/colorFire"
+            android:layout_weight="0.25"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.25">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/wand1"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="Ace of Wands"
+            android:background="@color/colorFire"
+            android:layout_weight="0.75"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="31sp"
+            android:id="@+id/wdes"
+            android:textColor="@color/colorFire"
+            android:text="Wands"
+            android:background="@color/colorAir"
+            android:layout_weight="0.5"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:id="@+id/wand10"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="10 of Wands"
+            android:background="@color/colorFire"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.25">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pow"
+            android:textSize="17sp"
+            android:textColor="@color/colorAir"
+            android:text="Page of Wands"
+            android:background="@color/colorFire"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/know"
+            android:textSize="17sp"
+            android:textColor="@color/colorAir"
+            android:text="Knight of Wands"
+            android:background="@color/colorFire"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/qow"
+            android:textSize="17sp"
+            android:textColor="@color/colorAir"
+            android:text="Queen of Wands"
+            android:background="@color/colorWater"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/kow"
+            android:textSize="17sp"
+            android:textColor="@color/colorFire"
+            android:text="King of Wands"
+            android:background="@color/colorAir"/>
+    </LinearLayout>
+</LinearLayout>

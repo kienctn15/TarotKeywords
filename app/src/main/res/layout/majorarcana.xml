@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.167">
+
+            <Button
+                android:layout_margin="1sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/theMagi"
+                android:textSize="15sp"
+                android:textColor="@color/colorEarth"
+                android:text="I - The Magician"
+                android:background="@color/colorAir"
+                android:layout_weight="0.25"/>
+            <Button
+                android:layout_margin="1sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/theHigh"
+                android:textSize="14sp"
+                android:textColor="@color/colorAir"
+                android:text="II - The High Priestess"
+                android:background="@color/colorWater"
+                android:layout_weight="0.25"/>
+            <Button
+                android:layout_margin="1sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/theEmpress"
+                android:textSize="15sp"
+                android:textColor="@color/colorAir"
+                android:text="III - The Empress"
+                android:background="@color/colorEarth"
+                android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/theEmperor"
+            android:textSize="15sp"
+            android:textColor="@color/colorAir"
+            android:text="IV - The Emperor"
+            android:background="@color/colorFire"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.167"
+        android:background="@color/colorAir">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/theHierophant"
+            android:textSize="12sp"
+            android:textColor="@color/colorAir"
+            android:text="V - The Hierophant"
+            android:background="@color/colorEarth"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/theLovers"
+            android:textSize="15sp"
+            android:textColor="@color/colorEarth"
+            android:text="VI - The Lovers"
+            android:background="@color/colorAir"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/theChariot"
+            android:textSize="15sp"
+            android:textColor="@color/colorAir"
+            android:text="VII - The Chariot"
+            android:background="@color/colorWater"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/Strength"
+            android:textSize="15sp"
+            android:textColor="@color/colorAir"
+            android:text="VIII - Strength"
+            android:background="@color/colorFire"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.167"
+        android:background="@color/colorAir">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/theHermit"
+            android:textSize="15sp"
+            android:textColor="@color/colorAir"
+            android:text="IX- The Hermit"
+            android:background="@color/colorEarth"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/theWheel"
+            android:textSize="15sp"
+            android:textColor="@color/colorAir"
+            android:text="X - Wheel \nof Fortune"
+            android:background="@color/colorEarth"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/Justice"
+            android:textSize="15sp"
+            android:textColor="@color/colorEarth"
+            android:text="XI - Justice"
+            android:background="@color/colorAir"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/theHanged"
+            android:textSize="15sp"
+            android:textColor="@color/colorAir"
+            android:text="XII - The Hanged Man"
+            android:background="@color/colorWater"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.167">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/Death"
+            android:textSize="15sp"
+            android:textColor="@color/colorAir"
+            android:text="XIII - Death"
+            android:background="@color/colorWater"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/Temperance"
+            android:textSize="12sp"
+            android:textColor="@color/colorAir"
+            android:text="XIV - Temperance"
+            android:background="@color/colorFire"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/theDevil"
+            android:textSize="15sp"
+            android:textColor="@color/colorAir"
+            android:text="XV - The Devil"
+            android:background="@color/colorEarth"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/Tower"
+            android:textSize="15sp"
+            android:textColor="@color/colorAir"
+            android:text="XVI - The Tower"
+            android:background="@color/colorFire"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.167"
+        android:background="@color/colorAir">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/theStar"
+            android:textSize="15sp"
+            android:textColor="@color/colorEarth"
+            android:text="XVII- The Star"
+            android:background="@color/colorAir"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/theMoon"
+            android:textSize="15sp"
+            android:textColor="@color/colorAir"
+            android:text="XVIII - The Moon"
+            android:background="@color/colorWater"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/theSun"
+            android:textSize="15sp"
+            android:textColor="@color/colorAir"
+            android:text="XIX - The Sun"
+            android:background="@color/colorFire"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/theJudgement"
+            android:textSize="13sp"
+            android:textColor="@color/colorAir"
+            android:text="XX - Judgement"
+            android:background="@color/colorFire"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.167"
+        android:background="@color/colorAir"
+        android:layout_gravity="center" >
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/theFool"
+            android:textSize="15sp"
+            android:textColor="@color/colorEarth"
+            android:text="0 - The Fool"
+            android:background="@color/colorAir"
+            android:layout_weight="0.75"/>
+        <TextView
+            android:layout_margin="1sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:id="@+id/mjdes"
+            android:background="#ffbb00"
+            android:textSize="25sp"
+            android:textColor="@color/colorEarth"
+            android:text="Major Arcana"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:id="@+id/theWorld"
+            android:textSize="15sp"
+            android:textColor="@color/colorAir"
+            android:text="XXI - The World"
+            android:background="@color/colorEarth"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorWater">
+    <ScrollView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@color/colorWater"
+            android:padding="13sp"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Two of Cups"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:paddingBottom="11sp"
+                android:textColor="@color/colorAir"
+                android:textSize="29sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAir"
+                android:text="•	Chiều xuôi: "
+                android:textStyle="bold"
+                android:paddingBottom="9sp"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_gravity="center_vertical|right"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAir"
+                android:textStyle="italic"
+                android:text="@string/twoc1"
+                android:paddingLeft="11sp"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="9sp"
+                android:paddingBottom="9sp"
+                android:textColor="@color/colorAir"
+                android:text="•	Chiều ngược: "
+                android:textStyle="bold"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_gravity="center_vertical|right"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textColor="@color/colorAir"
+                android:text="@string/twoc2"
+                android:paddingLeft="11sp"
+                android:textSize="16sp"/>
+        </LinearLayout></ScrollView></LinearLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAir">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.167">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cups2"
+            android:layout_margin="1dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="2 of Cups"
+            android:background="@color/colorWater"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cups3"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="3 of Cups"
+            android:background="@color/colorWater"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/cups4"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="4 of Cups"
+            android:background="@color/colorWater"/>
+
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cups5"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="5 of Cups"
+            android:background="@color/colorWater"
+            android:layout_weight="0.25"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.167">
+
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cups6"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="6 of Cups"
+            android:background="@color/colorWater"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/cups7"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="7 of Cups"
+            android:background="@color/colorWater"/>
+        <Button
+
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cups8"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="8 of Cups"
+            android:background="@color/colorWater"
+            android:layout_weight="0.25"/>
+
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cups9"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="9 of Cups"
+            android:background="@color/colorWater"
+            android:layout_weight="0.25"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.167">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cups1"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="Ace of Cups"
+            android:background="@color/colorWater"
+            android:layout_weight="0.75"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:id="@+id/cdes"
+            android:textColor="@color/colorWater"
+            android:text="Cups"
+            android:background="@color/colorAir"
+            android:layout_weight="0.5"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:id="@+id/cups10"
+            android:textSize="16sp"
+            android:textColor="@color/colorAir"
+            android:text="10 of Cups"
+            android:background="@color/colorWater"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.167">
+
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/poc"
+            android:textSize="17sp"
+            android:textColor="@color/colorAir"
+            android:text="Page of Cups"
+            android:background="@color/colorWater"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/knoc"
+            android:textSize="17sp"
+            android:textColor="@color/colorAir"
+            android:text="Knight of Cups"
+            android:background="@color/colorFire"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/qoc"
+            android:textSize="17sp"
+            android:textColor="@color/colorAir"
+            android:text="Queen of Cups"
+            android:background="@color/colorWater"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/koc"
+            android:textSize="17sp"
+            android:textColor="@color/colorWater"
+            android:text="King of Cups"
+            android:background="@color/colorAir"/>
+    </LinearLayout>
+</LinearLayout>

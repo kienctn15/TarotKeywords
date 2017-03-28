@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAir">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.167">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pen2"
+            android:textSize="14sp"
+            android:textColor="@color/colorAir"
+            android:text="2 of Pentacles"
+            android:background="@color/colorEarth"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pen3"
+            android:textSize="14sp"
+            android:textColor="@color/colorAir"
+            android:text="3 of Pentacles"
+            android:background="@color/colorEarth"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/pen4"
+            android:textSize="14sp"
+            android:textColor="@color/colorAir"
+            android:text="4 of Pentacles"
+            android:background="@color/colorEarth"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pen5"
+            android:textSize="14sp"
+            android:textColor="@color/colorAir"
+            android:text="5 of Pentacles"
+            android:background="@color/colorEarth"
+            android:layout_weight="0.25"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.167">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pen6"
+            android:textSize="14sp"
+            android:textColor="@color/colorAir"
+            android:text="6 of Pentacles"
+            android:background="@color/colorEarth"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/pen7"
+            android:textSize="14sp"
+            android:textColor="@color/colorAir"
+            android:text="7 of Pentacles"
+            android:background="@color/colorEarth"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pen8"
+            android:textSize="14sp"
+            android:textColor="@color/colorAir"
+            android:text="8 of Pentacles"
+            android:background="@color/colorEarth"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pen9"
+            android:textSize="14sp"
+            android:textColor="@color/colorAir"
+            android:text="9 of Pentacles"
+            android:background="@color/colorEarth"
+            android:layout_weight="0.25"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.167">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pen1"
+            android:textSize="14sp"
+            android:textColor="@color/colorAir"
+            android:text="Ace of Pentacles"
+            android:background="@color/colorEarth"
+            android:layout_weight="0.75"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:id="@+id/pdes"
+            android:textColor="@color/colorEarth"
+            android:text="Pentacles"
+            android:background="@color/colorAir"
+            android:layout_weight="0.5"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:id="@+id/pen10"
+            android:textSize="14sp"
+            android:textColor="@color/colorAir"
+            android:text="10 of Pentacles"
+            android:background="@color/colorEarth"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.167">
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/pop"
+            android:background="@color/colorEarth"
+            android:textSize="14sp"
+            android:textColor="@color/colorAir"
+            android:text="Page of Pentacles"
+            android:src="@mipmap/pageofpentacles"
+            />
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/knop"
+            android:textSize="14sp"
+            android:textColor="@color/colorAir"
+            android:text="Knight of Pentacles"
+            android:background="@color/colorFire"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/qop"
+            android:textSize="14sp"
+            android:textColor="@color/colorAir"
+            android:text="Queen of Pentacles"
+            android:background="@color/colorWater"
+            android:layout_weight="0.25"/>
+        <Button
+            android:layout_margin="1sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:id="@+id/kop"
+            android:textSize="14sp"
+            android:textColor="@color/colorEarth"
+            android:text="King of Pentacles"
+            android:background="@color/colorAir"/>
+    </LinearLayout>
+</LinearLayout>
