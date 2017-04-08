@@ -10,7 +10,6 @@
 <LinearLayout
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_gravity="center"
     android:background="#ffea00"
     android:padding="13sp">
     <TextView
@@ -23,38 +22,12 @@
         android:textColor="@color/colorEarth"
         android:textSize="29sp"/>
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorEarth"
-        android:text="•	Chiều xuôi: "
-        android:textStyle="bold"
-        android:paddingBottom="9sp"
-        android:textSize="25sp"/>
-    <TextView
         android:layout_gravity="center_vertical|right"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/colorEarth"
         android:textStyle="italic"
-        android:text="@string/dea1"
-        android:paddingLeft="11sp"
-        android:textSize="16sp"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="9sp"
-        android:paddingBottom="9sp"
-        android:textColor="@color/colorEarth"
-        android:text="•	Chiều ngược: "
-        android:textStyle="bold"
-        android:textSize="25sp" />
-    <TextView
-        android:layout_gravity="center_vertical|right"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textStyle="italic"
-        android:textColor="@color/colorEarth"
-        android:text="@string/dea2"
+        android:text="@string/dea"
         android:paddingLeft="11sp"
         android:textSize="16sp"/>
 </LinearLayout>
